@@ -1,0 +1,57 @@
+body{
+    margin:0 0 0 40px;
+    background-color: rgb(34, 34, 41);
+    color: rgb(0, 0, 0);
+    
+}
+.quote
+{
+    display: flex;
+    justify-content: space-around 15px;
+    flex-wrap: wrap;
+}
+.card 
+{
+    color: black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 450px;
+    width: 400px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 20px;
+    
+
+}
+.card >img
+{
+    height: 400px;
+    width:400px;
+    opacity: 60%;
+    background-color: black;
+    position: absolute;
+    object-fit:cover;
+    /* position: relative; */
+}
+.card .quote
+{
+color: rgb(255, 255, 255);
+ font-size: 20px;
+ font-weight: 500;
+ word-wrap:break-word;
+ text-align: center;
+ position: relative;
+ top: 280px;
+ padding: 10px;
+}
+.card .quoter
+{
+    position: relative;
+    font-size: 15px;  
+    word-wrap: normal;
+    color: white;
+    top: 280px;
+    text-align: end;
+    margin-right: 10px;
+    font-style: italic;
+}
