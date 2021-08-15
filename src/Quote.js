@@ -4,7 +4,7 @@ function Quote(props){
     return(
 
         <div className="card">
-            <img src={props.imgurl}></img> 
+            <img src={props.imgurl} alt="img"></img> 
             <div className="quote">
                 <p> {props.quote}</p>
             </div>

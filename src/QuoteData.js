@@ -1,4 +1,4 @@
-import React from "react"
+
 const QuoteData=[
     {
         id:"1",
